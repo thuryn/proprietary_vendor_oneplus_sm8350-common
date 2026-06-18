@@ -92,9 +92,7 @@
             "max_temporal_layer_bframe_count": 4
         },
         // list of codec plugin libraries to be loaded into codec registry
-        "QC2CodecPlugins": [
-            "libqc2vppfilter.so"
-        ],
+        "QC2CodecPlugins": [],
 
         // List of HW codecs enabled for this target
         "codecs-available": {

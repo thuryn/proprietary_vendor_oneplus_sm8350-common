@@ -134,13 +134,7 @@
             "vpp_thread_min_sleep_us": 10000
         },
         // list of codec plugin libraries to be loaded into codec registry
-        "QC2CodecPlugins": [
-            "libqc2vppfilter.so",
-            //#ifdef OPLUS_FEATURE_OSIE_SR
-            //shumin.nie@MULTIMEDIA.MMSERVER.PLAYER, 2020/11/10, Add for OSIE and SR
-            "liboplusvppfilter.so"
-            //#endif /* OPLUS_FEATURE_OSIE_SR */
-        ],
+        "QC2CodecPlugins": [],
 
         // List of HW codecs enabled for this target
         "codecs-available": {
@@ -165,10 +159,7 @@
             ]
         },
         "filters-available": {
-            "filters": [
-                "c2.qti.vpp.filter",
-                "c2.qti.vpp.filter.secure"
-            ]
+            "filters": []
         }
     }
 }
